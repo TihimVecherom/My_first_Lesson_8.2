@@ -1,0 +1,152 @@
+/* Обнуление */
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Taviraj:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body{
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+.wrapper{
+    overflow: hidden;
+    margin: 10px;
+}
+
+.all_box div:nth-child(1){
+    max-width: 300px;
+}
+
+.block_header h1:first-child{
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.block_header h2:last-child {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.all_box div:nth-child(2){
+    max-width: 400px;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.block_ul{
+   
+}
+
+ul li:nth-child(6),
+ul li:nth-child(5),
+ul li:nth-child(4),
+ul li:nth-child(3),
+ul li:nth-child(2),
+ul li:nth-child(1){
+    padding-left: 32px;
+    margin-bottom: 12px;
+    max-width: 390px;
+    line-height: 160%;
+    background:url('../img/Vector.png') 0 5.7px no-repeat;
+    color: #424551;
+}
+
+ul > li:last-child {
+    margin-bottom: 0px;
+}
+
+
+ul li:nth-child(1){
+
+}
+
+ul li:nth-child(2){
+  
+}
+
+ul li:nth-child(3){
+   
+}
+
+ul li:nth-child(4){
+   
+}
+
+ul li:nth-child(5){
+  
+}
+
+ul li:nth-child(6){
+  
+}
+
+
+.button{
+    margin:0px 0px 20px 5px;
+    text-align: center;
+    width: 162px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    box-shadow: 0px 2.5px 5px #1E212C;
+}
+
+.button:hover{
+    box-shadow: 0px 1.5px 2px #2c241e;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffee00;
+}
+
+.button:active{
+    box-shadow:inset 0px 0px 10px #1E212C, 0px 0px 10px #ffa600;
+    text-shadow: 0 0 5px #ffee00;
+}
+
+.before::after{
+    content: "";
+    display: inline-block;
+    margin-top: -10px;
+    width: 65px;
+    height: 1px;
+    color: #ff403a00;
+    background-color: #333333;
+}
+
+
+h3{
+    max-width: 240px;
+    font-family: Taviraj ;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;
+
+}
+
+.before{
+    max-width: 240px;
+}
+
+
+.before::after{
+    content: "";
+    width: 65px;
+    height: 1px;
+    color: #ff403a00;
+    background-color: #333333;
+    margin-bottom: 8px;
+}
